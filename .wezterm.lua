@@ -93,4 +93,9 @@ config.quick_select_patterns = {
     [[[A-Za-z]:\\[^ \t\n>]*]],
 }
 
+config.font = wezterm.font_with_fallback({
+  "Hack Nerd Font Mono Regular",
+  "Symbols Nerd Font Mono",
+})
+
 return config
