@@ -102,6 +102,7 @@ config.keys = {
 }
 config.quick_select_patterns = {
   [[[A-Za-z]:\\[^ \t\n>]*]],
+  [[(?:[A-Za-z0-9_-]+\.)+(?:[A-Za-z0-9_-]+)]],
 }
 
 config.font = wezterm.font_with_fallback({
